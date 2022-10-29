@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- <link rel="stylesheet" href="burgermenu.css"> -->
+ <link rel="stylesheet" href="cardstack.css">
+ <link rel="icon" type="image/x-icon" href="../favicon.ico">
+ <meta charset="utf-8">
+ <meta name="keywords" content="Mikk-Mait Kivi, Portfolio, Visual Art">
+ <meta name="description" content="Some visual testing of art and coding.">
+ <meta name="author" content="Mikk-Mait Kivi">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <title>BlackJack design</title>
+</head>
+<body>
+ <div class="background">
+  <div class="leftmenu">
+   <button onclick="deal()" id="DEAL">DEAL</button>
+   <button onclick="reveal()" id="REVEAL">REVEAL</button>
+   <button onclick="newhand()" id="NEWHAND">END HAND</button>
+  </div>
+  <div id="top-left" class="quarter">
+   <div class="top left card-bg"  id="1">
+    <div class="identifier" id="01"></div></div>
+  </div>
+  <div id="top-right" class="quarter">
+   <div class="top right card-bg" id="2">
+    <div class="identifier" id="02"></div></div>
+  </div>
+  <div id="bottom-left" class="quarter">
+   <div class="bottom left card-bg" id="3">
+    <div class="identifier" id="03"></div></div>
+  </div>
+  <div id="bottom-right" class="quarter">
+   <div class="bottom right card-bg" id="4">
+    <div class="identifier" id="04"></div></div>
+  </div>
+  <script src="../js/utils.js"></script>
+  <script src="card-deal.js"></script>
+  <script src="../js/test.js"></script>
+ </div>
+</body>
+</html>
